@@ -1,0 +1,111 @@
+@media (max-width:1030px) 
+{
+    /* Home CSS */
+    .home .home-banner-1,
+    .home .home-banner-2,
+    .home .home-banner-3 {
+        background-position: 65% center;
+        min-height: 550px;
+    }
+    .home .home-banner .home-banner-text {
+        transform: translate(-80%, -50%);
+    }
+
+    /* Offers */
+    .offers .offer-box .offer-info .heading-bigger {
+        font-size: 3rem;
+    }
+
+    /* Subscribe */
+    .news-box {
+        padding: 3rem 10rem;
+        background-color: var(--bg-light-white);
+    }
+}
+
+@media (max-width:991px) 
+{
+    /* Home CSS */
+    .home .home-banner .home-banner-text {
+        transform: translate(-66%, -50%);
+    }
+    /* Subscribe */
+    .news-box {
+        padding: 3rem 5rem;
+        background-color: var(--bg-light-white);
+    }
+}
+
+@media (max-width:767px) 
+{
+    /* Home CSS */
+    .home .home-banner-1,
+    .home .home-banner-2,
+    .home .home-banner-3 {
+        background-position: 50% center;
+        min-height: 450px;
+    }
+    .home .home-banner .home-banner-text {
+        text-align: center;
+        width: 100%;
+        transform: translate(-50%, -50%);
+    }
+    .home .home-banner .home-banner-text h1 {
+        font-size: 3rem;
+    }
+    .home .home-banner .home-banner-text h2 {
+        font-size: 1.2rem;
+    }
+    .home .home-banner .home-banner-text .btn-primary {
+        padding: 0.5rem 1.5rem;
+    }
+    .home .slider-icon {
+        font-size: 2rem;
+    }
+
+    /* Subscribe */
+    .news-box {
+        padding: 3rem 0;
+        background-color: var(--bg-light-white);
+    }
+    .news-box-title {
+        font-size: 1.10rem;
+    }
+    .news-box-text {
+        font-size: 0.75rem;
+    }
+    .news-box .form-control {
+        height: 3rem;
+        padding: 0.3rem 1rem;
+    }
+    .news-box .input-group .btn-primary {
+        height: 3rem;
+    }
+}
+
+@media (max-width:330px) 
+{
+    /* Home */
+    .home .home-banner .home-banner-text h2 {
+        font-size: 1rem;
+    }
+
+    /* Subscribe */
+    .news-box {
+        padding: 3rem 0;
+        background-color: var(--bg-light-white);
+    }
+    .news-box-title {
+        font-size: 0.75rem;
+    }
+    .news-box-text {
+        font-size: 0.75rem;
+    }
+    .news-box .form-control {
+        height: 3rem;
+        padding: 0.3rem 1rem;
+    }
+    .news-box .input-group .btn-primary {
+        height: 3rem;
+    }
+}
